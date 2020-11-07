@@ -23,111 +23,73 @@ body {
 
 #partieun {
     position: absolute;
-    height: 200px;
+    height: 33.33%;
     width: 40%;
     background-color: #35bc7a;
 }
 
-#experience {
+#experience, #social, #education, #contact, #profil, #blog, #portfolio {
     position: absolute;
-    height: 200px;
+    height: 33.33%;
     width: 20%;
-    background-color: #1e8bc4;
-    top: 200px;
-    text-align: center;
-    background-image: url("Capture.PNG");
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
+}
+
+#experience {
+    background-color: #1e8bc4;
+    top: 200px;
+    background-image: url("capture.PNG");
 }
 
 #social {
-    position: absolute;
-    height: 200px;
-    width: 20%;
     background-color: #f86925;
     bottom: 0;
-    text-align: center;
-    background-image: url("Capture3.PNG");
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("capture3.PNG");
 }
 
 #education {
-    position: absolute;
-    height: 200px;
-    width: 20%;
     background-color: #f15a49;
     top: 200px;
     left: 20%;
-    text-align: center;
-    background-image: url("Capture2.PNG");
     background-size: 20%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("capture2.PNG");
 }
 
 #contact {
-    position: absolute;
-    height: 200px;
-    width: 20%;
     background-color: #1e8bc4;
     left: 20%;
     bottom: 0;
-    text-align: center;
-    background-image: url("Capture4.PNG");
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("capture4.PNG");
 }
 
 #profil {
-    position: absolute;
-    height: 200px;
-    width: 20%;
     background-color: #ff9e00;
     left: 40%;
-    text-align: center;
-    background-image: url("Capture5.PNG");
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("capture5.PNG");
 }
 
 #blog {
-    position: absolute;
-    height: 200px;
-    width: 20%;
     background-color: #35bc7a;
     left: 40%;
     top: 200px;
-    text-align: center;
-    background-image: url("Capture6.PNG");
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("capture6.PNG");
 }
 
 #portfolio {
-    position: absolute;
-    height: 200px;
-    width: 20%;
     background-color: #f86925;
     left: 40%;
     bottom: 0;
-    text-align: center;
-    background-image: url("Capture8.PNG");
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("capture8.PNG");
 }
 
 #photo {
     position: absolute;
     height: 600px;
     width: 40%;
-    background-image: url("Capture10.PNG");
+    background-image: url("capture10.PNG");
     background-size: 100%;
     background-repeat: no-repeat;
     left: 60%;
@@ -178,7 +140,7 @@ h1 {
 
 #resume > div {
     position: absolute;
-    background-image: url("Capture11.PNG");
+    background-image: url("capture11.PNG");
     background-size: 100%;
     width: 25%;
     height: 80%;
@@ -204,7 +166,7 @@ h1 {
 
 #cont > div {
     position: absolute;
-    background-image: url("Capture12.PNG");
+    background-image: url("capture12.PNG");
     background-size: 80%;
     width: 25%;
     height: 80%;
