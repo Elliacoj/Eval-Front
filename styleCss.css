@@ -1,176 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
     color: white;
     font-family: sans-serif;
 }
 
-#bordure {
-    position: relative;
-    width: 1030px;
-    height: 620px;
-    background-color: #cfcfd0;
-    top: 5px;
-    left: 100px;
-}
-
 #cadre {
-    position: relative;
     background-color: white;
-    width: 1010px;
-    height: 600px;
-    top: 10px;
-    left: 10px;
+    width: 100rem;
+    height: 60rem;
+    border: 1rem solid lightgrey;
+    margin-left: 10rem;
 }
 
-#partieun {
-    position: absolute;
-    height: 33.33%;
-    width: 40%;
-    background-color: #35bc7a;
+#gauche, #pres, #photo, #experience, #social, #education, #contact, #profil, #blog, #portfolio, #cont, #resume, #resume div, #resume p, #cont div, #cont p  {
+    display: inline-block;
+    overflow: hidden;
 }
+
+#gauche {
+    width: 60%;
+    height: 100%;
+}
+
+#photo {
+    width: 40%;
+    height: 100%;
+    background-image: url("capture10.PNG");
+    background-size: cover;
+    float: right;
+}
+
+#partiun, #partideux, #partitrois {
+    width: 100%;
+    height: 33.3%;
+}
+
+
 
 #experience, #social, #education, #contact, #profil, #blog, #portfolio {
-    position: absolute;
-    height: 33.33%;
-    width: 20%;
+    height: 100%;
+    width: 33.333%;
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
+    overflow: hidden;
 }
 
-#experience {
-    background-color: #1e8bc4;
-    top: 200px;
-    background-image: url("capture.PNG");
+#profil, #education, #blog, #contact, #portfolio{
+    margin-left: -3px;
 }
 
-#social {
-    background-color: #f86925;
-    bottom: 0;
-    background-image: url("capture3.PNG");
-}
-
-#education {
-    background-color: #f15a49;
-    top: 200px;
-    left: 20%;
-    background-size: 20%;
-    background-image: url("capture2.PNG");
-}
-
-#contact {
-    background-color: #1e8bc4;
-    left: 20%;
-    bottom: 0;
-    background-image: url("capture4.PNG");
+#pres {
+    height: 100%;
+    width: 66.6%;
+    background-color: #35bc7a;
+    overflow: hidden;
 }
 
 #profil {
     background-color: #ff9e00;
-    left: 40%;
     background-image: url("capture5.PNG");
+}
+
+#experience {
+    background-color: #1e8bc4;
+    background-image: url("capture.PNG");
+}
+
+#education {
+    background-color: #f15a49;
+    background-image: url("capture2.PNG");
+    background-size: 20%;
 }
 
 #blog {
     background-color: #35bc7a;
-    left: 40%;
-    top: 200px;
     background-image: url("capture6.PNG");
+}
+
+#social {
+    background-color: #f86925;
+    background-image: url("capture3.PNG");
+}
+
+#contact {
+    background-color: #1e8bc4;
+    background-image: url("capture4.PNG");
+    background-size: 20%;
 }
 
 #portfolio {
     background-color: #f86925;
-    left: 40%;
-    bottom: 0;
     background-image: url("capture8.PNG");
 }
 
-#photo {
-    position: absolute;
-    height: 600px;
-    width: 40%;
-    background-image: url("capture10.PNG");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    left: 60%;
-}
-
-p {
-    display: inline-block;
-    line-height: 0;
-    padding-top: 60%;
-    font-size: 12px;
-}
-
-#partieun  p {
-    padding-top: 0;
-}
-
-h1 {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-left: 30px;
-}
-
-.entete {
-    font-size: 12px;
-    padding-left: 30px;
+h1, #pres p {
+    text-align: center;
+    padding-top: 4%;
 }
 
 #deuxc {
-    position: relative;
-    height: 200px;
+    width: 100%;
+    height: 50%;
 }
-
-#resume {
-    position: absolute;
+#resume, #cont {
+    height: 35%;
+    width: 35%;
     border: 2px solid white;
-    width: 30%;
-    height: 20%;
-    margin-left: 30px;
-    margin-top: 15px;
-}
-#resume > p {
-    font-weight: bold;
-    font-size: 14px;
-    margin-top: 20px;
-    margin-left: 45px;
-
+    margin-top: 6%;
+    margin-left: 10%;
 }
 
-#resume > div {
-    position: absolute;
+#resume div, #cont div {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 20%;
+    margin-left: 15%;
+}
+
+#resume div{
     background-image: url("capture11.PNG");
-    background-size: 100%;
-    width: 25%;
-    height: 80%;
-    top: 4px;
-    left: 8px;
 }
 
-#cont {
-    position: absolute;
-    border: 2px solid white;
-    width: 30%;
-    height: 20%;
-    margin-left: 200px;
-    margin-top: 15px;
-}
-#cont > p {
-    font-weight: bold;
-    font-size: 14px;
-    margin-top: 20px;
-    margin-left: 40px;
-
-}
-
-#cont > div {
-    position: absolute;
+#cont div {
     background-image: url("capture12.PNG");
-    background-size: 80%;
-    width: 25%;
-    height: 80%;
-    top: 4px;
-    left: 10px;
+}
+
+#resume p, #cont p {
+    padding-bottom: 6%;
+    padding-left: 5%;
+}
+
+p {
+    padding-top: 62%;
 }
 
