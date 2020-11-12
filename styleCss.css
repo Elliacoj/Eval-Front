@@ -136,6 +136,11 @@ p {
 }
 
 @media screen and (max-width: 400px) {
+    #cadre {
+        width: 100vw;
+        height: 100vh;
+    }
+
     #photo {
         display: none;
     }
