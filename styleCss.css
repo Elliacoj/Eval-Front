@@ -9,16 +9,16 @@ html {
 }
 
 body {
+    width: 100%;
     color: white;
     font-family: sans-serif;
 }
 
 #cadre {
     background-color: white;
-    width: 100rem;
-    height: 60rem;
+    width: 100vw;
+    height: 100vh;
     border: 1rem solid lightgrey;
-    margin-left: 10rem;
 }
 
 #gauche, #pres, #photo, #experience, #social, #education, #contact, #profil, #blog, #portfolio, #cont, #resume, #resume div, #resume p, #cont div, #cont p  {
@@ -88,7 +88,6 @@ body {
 #contact {
     background-color: #1e8bc4;
     background-image: url("capture4.PNG");
-    background-size: 20%;
 }
 
 #portfolio {
@@ -134,5 +133,27 @@ h1, #pres p {
 
 p {
     padding-top: 62%;
+}
+
+@media screen and (max-width: 400px) {
+    #photo {
+        display: none;
+    }
+
+    #gauche {
+        width: 100%;
+    }
+
+    p {
+        padding-top: 80%;
+    }
+
+    #resume p, #cont p {
+        padding-bottom: 6%;
+        padding-left: 1%;
+    }
+    #resume div, #cont div {
+        margin-left: 5%;
+    }
 }
 
