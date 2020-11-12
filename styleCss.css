@@ -135,10 +135,51 @@ p {
     padding-top: 62%;
 }
 
+@media screen and (max-width: 1000px) {
+    #cadre {
+        border: none;
+    }
+
+    #photo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #cadre {
+        width: 67rem;
+        height: 50rem;
+        border: none;
+    }
+
+    #photo {
+        display: none;
+    }
+
+    #resume, #cont {
+        height: 60%;
+    }
+
+    #resume p, #cont p {
+        padding-bottom: 6%;
+        display: block;
+    }
+
+    #resume div, #cont div {
+        margin-left: 40%;
+        height: 40%;
+    }
+
+    p {
+        padding-top: 80%;
+    }
+}
+
 @media screen and (max-width: 400px) {
     #cadre {
         width: 100vw;
-        height: 100vh;
+        height: 50rem;
+        border: none;
     }
 
     #photo {
@@ -148,17 +189,11 @@ p {
     #gauche {
         width: 100%;
     }
+}
 
+@media screen and (max-width: 380px) {
     p {
-        padding-top: 80%;
-    }
-
-    #resume p, #cont p {
-        padding-bottom: 6%;
-        padding-left: 1%;
-    }
-    #resume div, #cont div {
-        margin-left: 5%;
+        padding-top: 40%;
     }
 }
 
