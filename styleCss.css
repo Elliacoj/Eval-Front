@@ -147,9 +147,12 @@ p {
 
 @media screen and (max-width: 600px) {
     #cadre {
-        width: 67rem;
-        height: 50rem;
+        width: 100%;
         border: none;
+    }
+
+    #gauche {
+        width: 100%;
     }
 
     #photo {
@@ -175,23 +178,7 @@ p {
     }
 }
 
-@media screen and (max-width: 400px) {
-    #cadre {
-        width: 100vw;
-        height: 50rem;
-        border: none;
-    }
-
-    #photo {
-        display: none;
-    }
-
-    #gauche {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 440px) {
     p {
         padding-top: 40%;
     }
