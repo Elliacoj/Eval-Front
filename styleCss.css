@@ -19,6 +19,7 @@ body {
     width: 100rem;
     height: 60rem;
     border: 1rem solid lightgrey;
+    margin: auto;
 }
 
 #gauche, #pres, #photo, #experience, #social, #education, #contact, #profil, #blog, #portfolio, #cont, #resume, #resume div, #resume p, #cont div, #cont p  {
@@ -137,16 +138,6 @@ p {
 
 @media screen and (max-width: 1000px) {
     #cadre {
-        border: none;
-    }
-
-    #photo {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #cadre {
         width: 100%;
         border: none;
     }
@@ -160,21 +151,21 @@ p {
     }
 
     #resume, #cont {
-        height: 60%;
-    }
-
-    #resume p, #cont p {
-        padding-bottom: 6%;
-        display: block;
+        height: 80%;
     }
 
     #resume div, #cont div {
-        margin-left: 40%;
-        height: 40%;
+        margin-left: 20%;
+        height: 80%;
+        display: none;
+    }
+
+    #resume p, #cont p {
+
     }
 
     p {
-        padding-top: 80%;
+        display: none;
     }
 }
 
@@ -183,4 +174,3 @@ p {
         padding-top: 40%;
     }
 }
-
