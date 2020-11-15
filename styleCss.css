@@ -137,40 +137,26 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
-    #cadre {
+    #cadre, #gauche {
         width: 100%;
         border: none;
     }
 
-    #gauche {
-        width: 100%;
-    }
-
-    #photo {
-        display: none;
-    }
-
     #resume, #cont {
-        height: 80%;
+        height: 60%;
     }
 
-    #resume div, #cont div {
-        margin-left: 20%;
-        height: 80%;
+    #resume div, #cont div, #photo, #partideux p, #partitrois p, #profil p {
         display: none;
     }
 
     #resume p, #cont p {
-
+        display: block;
+        padding: 0;
+        margin-top: 10%;
     }
 
-    p {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    p {
-        padding-top: 40%;
+    h1, #pres p {
+        padding-top: 2%;
     }
 }
